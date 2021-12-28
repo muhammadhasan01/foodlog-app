@@ -25,6 +25,7 @@
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.9.3, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="buftok (v0.2.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.32, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.36.0, ruby-3.0.3-p157) [gem]" level="application" />
@@ -32,8 +33,17 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.9, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.4.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20190701, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="equalizer (v0.0.11, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.4, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi-compiler (v1.0.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.0.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http (v4.4.1, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.4, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-form_data (v2.3.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-parser (v1.2.3, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.11, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v1.0.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.5.9, ruby-3.0.3-p157) [gem]" level="application" />
@@ -43,10 +53,13 @@
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="memoizable (v0.4.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.15.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.4.2, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.1.1, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="naught (v1.1.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.8, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.12.5, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.6, ruby-3.0.3-p157) [gem]" level="application" />
@@ -65,14 +78,19 @@
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.1.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_oauth (v0.3.1, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.0.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.4.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stimulus-rails (v1.0.2, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.1.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.0.0, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="twitter (v7.0.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.4, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2021.5, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, ruby-3.0.3-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.8, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webdrivers (v5.0.0, ruby-3.0.3-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, ruby-3.0.3-p157) [gem]" level="application" />

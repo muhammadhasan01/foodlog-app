@@ -42,3 +42,2230 @@ Processing by Rails::InfoController#routes as HTML
 Completed 200 OK in 140ms (Views: 133.9ms | ActiveRecord: 0.0ms | Allocations: 15332)
 
 
+Started GET "/" for 127.0.0.1 at 2021-12-29 00:55:47 +0700
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1907)
+  Rendered layout layouts/application.html.erb (Duration: 883.6ms | Allocations: 101039)
+Completed 200 OK in 955ms (Views: 911.6ms | ActiveRecord: 0.4ms | Allocations: 108168)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 00:57:00 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1341)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 4096)
+Completed 200 OK in 37ms (Views: 31.6ms | ActiveRecord: 0.3ms | Allocations: 5447)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 00:59:30 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 4171)
+Completed 200 OK in 31ms (Views: 25.9ms | ActiveRecord: 0.3ms | Allocations: 5465)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:01:47 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1290)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 4484)
+Completed 200 OK in 35ms (Views: 28.6ms | ActiveRecord: 0.3ms | Allocations: 5777)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:01:47 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 800)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3177)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.3ms | Allocations: 3603)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:02:11 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1289)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 4458)
+Completed 200 OK in 40ms (Views: 34.1ms | ActiveRecord: 0.6ms | Allocations: 5716)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:03:59 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1268)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 4575)
+Completed 200 OK in 52ms (Views: 46.8ms | ActiveRecord: 0.4ms | Allocations: 5854)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:04:13 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1274)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 4577)
+Completed 200 OK in 34ms (Views: 27.4ms | ActiveRecord: 0.2ms | Allocations: 5856)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:05:39 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1299)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 301)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 4637)
+Completed 200 OK in 39ms (Views: 33.1ms | ActiveRecord: 0.3ms | Allocations: 5930)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:05:55 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1274)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 4609)
+Completed 200 OK in 43ms (Views: 38.5ms | ActiveRecord: 0.3ms | Allocations: 5891)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:06:10 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1311)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 4665)
+Completed 200 OK in 33ms (Views: 27.4ms | ActiveRecord: 0.3ms | Allocations: 5965)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:06:11 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 797)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3205)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 3630)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:06:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1277)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 4610)
+Completed 200 OK in 33ms (Views: 27.1ms | ActiveRecord: 0.4ms | Allocations: 5868)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:07:22 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1280)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 366)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 4682)
+Completed 200 OK in 33ms (Views: 28.1ms | ActiveRecord: 0.3ms | Allocations: 5961)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:07:22 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 800)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3209)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.5ms | Allocations: 3634)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:07:56 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1280)
+  Rendered shared/_header.html.erb (Duration: 2.4ms | Allocations: 355)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 4671)
+Completed 200 OK in 48ms (Views: 40.0ms | ActiveRecord: 0.4ms | Allocations: 5929)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:08:03 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1289)
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 353)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 4678)
+Completed 200 OK in 44ms (Views: 35.7ms | ActiveRecord: 0.6ms | Allocations: 5957)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:08:32 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1271)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 4607)
+Completed 200 OK in 38ms (Views: 32.7ms | ActiveRecord: 0.3ms | Allocations: 5886)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:10:26 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1265)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 4674)
+Completed 200 OK in 34ms (Views: 29.1ms | ActiveRecord: 0.3ms | Allocations: 5953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:11:52 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1101)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 4749)
+Completed 200 OK in 39ms (Views: 33.2ms | ActiveRecord: 0.3ms | Allocations: 6028)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:11:53 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 624)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 3230)
+Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 0.4ms | Allocations: 3655)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:12:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 624)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3233)
+Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 3637)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:12:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 624)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3224)
+Completed 200 OK in 21ms (Views: 16.1ms | ActiveRecord: 0.5ms | Allocations: 3628)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:12:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 624)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3206)
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 0.4ms | Allocations: 3610)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:12:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 624)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3221)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 3625)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:12:22 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1274)
+  Rendered shared/_header.html.erb (Duration: 1.9ms | Allocations: 363)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 4673)
+Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 0.4ms | Allocations: 5931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:13:09 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.7ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1090)
+  Rendered shared/_header.html.erb (Duration: 2.4ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 4732)
+Completed 200 OK in 52ms (Views: 43.8ms | ActiveRecord: 0.7ms | Allocations: 6011)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:13:20 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:6
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1277)
+  Rendered shared/_header.html.erb (Duration: 2.4ms | Allocations: 363)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 4676)
+Completed 200 OK in 41ms (Views: 34.0ms | ActiveRecord: 0.3ms | Allocations: 5955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:13:51 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:9
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1374)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 4776)
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 0.3ms | Allocations: 6055)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:13:52 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:9
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 805)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 3213)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.3ms | Allocations: 3638)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:13:52 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:9
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 811)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3218)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.4ms | Allocations: 3622)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:14:09 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:10
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1376)
+  Rendered shared/_header.html.erb (Duration: 7.0ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 4778)
+Completed 200 OK in 53ms (Views: 47.6ms | ActiveRecord: 0.4ms | Allocations: 6036)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:14:10 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:10
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 819)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 3226)
+Completed 200 OK in 55ms (Views: 41.7ms | ActiveRecord: 0.4ms | Allocations: 3651)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:14:23 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.7ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:12
+  Rendered entries/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1380)
+  Rendered shared/_header.html.erb (Duration: 3.0ms | Allocations: 368)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 4791)
+Completed 200 OK in 63ms (Views: 53.3ms | ActiveRecord: 0.7ms | Allocations: 6051)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:14:23 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:12
+  Rendered entries/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 808)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 3215)
+Completed 200 OK in 42ms (Views: 36.6ms | ActiveRecord: 0.5ms | Allocations: 3660)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:14:29 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:12
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1341)
+  Rendered shared/_header.html.erb (Duration: 2.5ms | Allocations: 363)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 4740)
+Completed 200 OK in 62ms (Views: 53.7ms | ActiveRecord: 0.3ms | Allocations: 6000)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:15:26 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:12
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1368)
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 386)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 4798)
+Completed 200 OK in 69ms (Views: 63.4ms | ActiveRecord: 0.3ms | Allocations: 6078)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:15:34 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1373)
+  Rendered shared/_header.html.erb (Duration: 2.8ms | Allocations: 382)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 4791)
+Completed 200 OK in 45ms (Views: 39.8ms | ActiveRecord: 0.4ms | Allocations: 6070)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:15:42 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 814)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 3229)
+Completed 200 OK in 19ms (Views: 14.9ms | ActiveRecord: 0.3ms | Allocations: 3654)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:16:16 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1380)
+  Rendered shared/_header.html.erb (Duration: 2.8ms | Allocations: 382)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 4800)
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 0.3ms | Allocations: 6058)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:16:17 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 802)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 3213)
+Completed 200 OK in 26ms (Views: 21.6ms | ActiveRecord: 0.5ms | Allocations: 3638)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:16:48 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 811)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3218)
+Completed 200 OK in 20ms (Views: 13.1ms | ActiveRecord: 0.3ms | Allocations: 3622)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:16:51 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 811)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3218)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 0.4ms | Allocations: 3622)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2021-12-29 01:16:57 +0700
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 129.6ms | Allocations: 7534)
+  Rendered entries/new.html.erb within layouts/application (Duration: 133.3ms | Allocations: 7944)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 158.4ms | Allocations: 10469)
+Completed 200 OK in 273ms (Views: 159.9ms | ActiveRecord: 3.0ms | Allocations: 21690)
+
+
+Started POST "/entries" for 127.0.0.1 at 2021-12-29 01:17:05 +0700
+Processing by EntriesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_entry"=>"ss", "calories"=>"23", "protiens"=>"32", "carbohydrates"=>"32", "fats"=>"323"}, "commit"=>"Create Entry"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mEntry Create (4.8ms)[0m  [1m[32mINSERT INTO "entries" ("meal_entry", "calories", "protiens", "carbohydrates", "fats", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["meal_entry", "ss"], ["calories", 23], ["protiens", 32], ["carbohydrates", 32], ["fats", 323], ["created_at", "2021-12-28 18:17:05.309217"], ["updated_at", "2021-12-28 18:17:05.309217"]]
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 26ms (ActiveRecord: 12.4ms | Allocations: 4249)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:17:05 +0700
+Processing by EntriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 2.0ms | Allocations: 395)
+  Rendered entries/show.html.erb within layouts/application (Duration: 21.8ms | Allocations: 1879)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 4387)
+Completed 200 OK in 62ms (Views: 36.9ms | ActiveRecord: 0.4ms | Allocations: 7988)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:17:28 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 566)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2945)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 0.5ms | Allocations: 3941)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:17:50 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (2.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.1ms | Allocations: 1567)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1919)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 4297)
+Completed 200 OK in 39ms (Views: 19.8ms | ActiveRecord: 2.2ms | Allocations: 5270)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:17:54 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered entries/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 545)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2923)
+Completed 200 OK in 20ms (Views: 13.7ms | ActiveRecord: 0.5ms | Allocations: 3839)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:18:01 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.1ms | Allocations: 1474)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1622)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 4000)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.4ms | Allocations: 4917)
+
+
+Started PATCH "/entries/1" for 127.0.0.1 at 2021-12-29 01:18:05 +0700
+Processing by EntriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_entry"=>"Breakfast", "calories"=>"23", "protiens"=>"32", "carbohydrates"=>"32", "fats"=>"323"}, "commit"=>"Update Entry", "id"=>"1"}
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+  [1m[36mEntry Update (1.8ms)[0m  [1m[33mUPDATE "entries" SET "meal_entry" = ?, "updated_at" = ? WHERE "entries"."id" = ?[0m  [["meal_entry", "Breakfast"], ["updated_at", "2021-12-28 18:18:05.175973"], ["id", 1]]
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 24ms (ActiveRecord: 7.6ms | Allocations: 3457)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:18:05 +0700
+Processing by EntriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 0.4ms | Allocations: 38)
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 577)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2960)
+Completed 200 OK in 21ms (Views: 15.3ms | ActiveRecord: 0.3ms | Allocations: 3879)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:19:00 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 1.2ms | Allocations: 338)
+  Rendered entries/show.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1329)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 4701)
+Completed 200 OK in 57ms (Views: 49.4ms | ActiveRecord: 0.3ms | Allocations: 6475)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:19:01 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered entries/show.html.erb within layouts/application (Duration: 16.1ms | Allocations: 545)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 2923)
+Completed 200 OK in 39ms (Views: 31.8ms | ActiveRecord: 0.3ms | Allocations: 3907)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:19:14 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 5.7ms | Allocations: 2146)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2554)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 4932)
+Completed 200 OK in 34ms (Views: 26.6ms | ActiveRecord: 0.3ms | Allocations: 5903)
+
+
+Started GET "/entrie" for 127.0.0.1 at 2021-12-29 01:19:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/entrie"):
+  
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:19:18 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.7ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered entries/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1529)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 4066)
+Completed 200 OK in 32ms (Views: 27.0ms | ActiveRecord: 0.7ms | Allocations: 4613)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:20:18 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 28.9ms | Allocations: 13054)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 13158)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.5ms | Allocations: 14377)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+     9: 
+    10: <div class="columns mt-6 is-centered">
+    11:   <% @entries.each do |entry| %>
+    12:     <%= entry.meal_type %>
+    13:     <p>
+    14:       <%= link_to "Show this entry", entry %>
+    15:     </p>
+  
+app/views/entries/index.html.erb:12
+app/views/entries/index.html.erb:11
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:20:32 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.8ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 12932)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 13036)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.8ms | Allocations: 14279)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+     9: 
+    10: <div class="columns mt-6 is-centered">
+    11:   <% @entries.each do |entry| %>
+    12:     <%= render entry.meal_type %>
+    13:     <p>
+    14:       <%= link_to "Show this entry", entry %>
+    15:     </p>
+  
+app/views/entries/index.html.erb:12
+app/views/entries/index.html.erb:11
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:20:38 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 2.3ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1988)
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 32.1ms | Allocations: 5413)
+Completed 200 OK in 47ms (Views: 39.6ms | ActiveRecord: 0.4ms | Allocations: 6707)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:20:53 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 0.4ms | Allocations: 38)
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1024)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 51)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3426)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.4ms | Allocations: 3851)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:21:01 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 1.6ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1982)
+  Rendered shared/_header.html.erb (Duration: 2.7ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 5387)
+Completed 200 OK in 44ms (Views: 38.4ms | ActiveRecord: 0.4ms | Allocations: 6645)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:21:13 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 1.5ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1991)
+  Rendered shared/_header.html.erb (Duration: 2.2ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 5396)
+Completed 200 OK in 52ms (Views: 45.6ms | ActiveRecord: 0.5ms | Allocations: 6675)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:21:54 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 2.5ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 26.4ms | Allocations: 13667)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 13771)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.5ms | Allocations: 15022)
+
+
+  
+ActionView::Template::Error (undefined method `proteins' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  protiens):
+    10: <div class="">
+    11:   <% @entries.each do |entry| %>
+    12:     <%= render entry %>
+    13:     <%= entry.proteins %>
+    14:     <p>
+    15:       <%= link_to "Show this entry", entry %>
+    16:     </p>
+  
+app/views/entries/index.html.erb:13
+app/views/entries/index.html.erb:11
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:22:04 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.8ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 2.2ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 2035)
+  Rendered shared/_header.html.erb (Duration: 2.6ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 5460)
+Completed 200 OK in 47ms (Views: 40.6ms | ActiveRecord: 0.8ms | Allocations: 6754)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:22:34 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:11
+  Rendered entries/_entry.html.erb (Duration: 1.7ms | Allocations: 337)
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1966)
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 5375)
+Completed 200 OK in 44ms (Views: 36.7ms | ActiveRecord: 0.4ms | Allocations: 6654)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:24:34 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1931)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2035)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3274)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:24:43 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 13217)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 13321)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.2ms | Allocations: 14564)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+    19:     <div class="column is-one-quarter">
+    20:       <div class="card">
+    21:         <header class="card-header">
+    22:           <p class="card-header-title"><%= entry.meal_type %> / <%= entry.category.title  if entry.category.present? %></p>
+    23:         </header>
+    24:         <div class="card-content">
+    25:           <div class="content">
+  
+app/views/entries/index.html.erb:22
+app/views/entries/index.html.erb:18
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:24:59 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 13201)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 13305)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.2ms | Allocations: 14548)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+    19:     <div class="column is-one-quarter">
+    20:       <div class="card">
+    21:         <header class="card-header">
+    22:           <p class="card-header-title"><%= entry.meal_type %></p>
+    23:         </header>
+    24:         <div class="card-content">
+    25:           <div class="content">
+  
+app/views/entries/index.html.erb:22
+app/views/entries/index.html.erb:18
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:25:00 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 12369)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 12467)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms | Allocations: 12866)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+    19:     <div class="column is-one-quarter">
+    20:       <div class="card">
+    21:         <header class="card-header">
+    22:           <p class="card-header-title"><%= entry.meal_type %></p>
+    23:         </header>
+    24:         <div class="card-content">
+    25:           <div class="content">
+  
+app/views/entries/index.html.erb:22
+app/views/entries/index.html.erb:18
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:25:18 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 13349)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 13453)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.4ms | Allocations: 14675)
+
+
+  
+ActionView::Template::Error (undefined method `proteins' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  protiens):
+    24:         <div class="card-content">
+    25:           <div class="content">
+    26:             <p><span class="has-text-weight-bold"><%= entry.calories %></span> calories</p>
+    27:             <p><span class="has-text-weight-bold"><%= entry.proteins %></span> grams of protein</p>
+    28:             <p><span class="has-text-weight-bold"><%= entry.carbohydrates %></span> grams of carbohydrates</p>
+    29:             <p><span class="has-text-weight-bold"><%= entry.fats %></span> grams of fat</p>
+    30:             <p class="italic">Logged <%= time_ago_in_words(entry.created_at) %> ago</p>
+  
+app/views/entries/index.html.erb:27
+app/views/entries/index.html.erb:18
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:25:23 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 22280)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 22384)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.2ms | Allocations: 23629)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `archives_index_path' for #<ActionView::Base:0x00000000009a38>):
+    41: </div>
+    42: 
+    43: <div class="columns is-centered mt-6">
+    44:   <%= link_to "View all entries", archives_index_path, class: "button is-link is-outlined is-centered" %>
+    45: </div>
+  
+app/views/entries/index.html.erb:44
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:25:30 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1980)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 5413)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.2ms | Allocations: 6707)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:29:09 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3300)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3436)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 10413)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:30:43 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1257)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1356)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1785)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:30:44 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1197)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1296)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1681)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:30:45 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1197)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1296)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1681)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:31:01 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 57.3ms | Allocations: 14913)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 156.3ms | Allocations: 53550)
+Completed 200 OK in 164ms (Views: 159.9ms | ActiveRecord: 1.2ms | Allocations: 54882)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:31:08 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1899)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2004)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3259)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:31:49 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1205)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1303)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1701)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:33:03 +0700
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  Rendered entries/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3309)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3445)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 10422)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: 
+    17: <div class="columns mt-6 is-centered">
+  
+app/views/entries/index.html.erb:14:in `to_s'
+app/views/entries/index.html.erb:14
+app/views/entries/index.html.erb:13
+Started POST "/__web_console/repl_sessions/68d2329ec195b8166a0859f62c50345f/trace" for 127.0.0.1 at 2021-12-29 01:33:08 +0700
+Started POST "/__web_console/repl_sessions/68d2329ec195b8166a0859f62c50345f/trace" for 127.0.0.1 at 2021-12-29 01:33:09 +0700
+Started POST "/__web_console/repl_sessions/68d2329ec195b8166a0859f62c50345f/trace" for 127.0.0.1 at 2021-12-29 01:33:11 +0700
+Started POST "/__web_console/repl_sessions/68d2329ec195b8166a0859f62c50345f/trace" for 127.0.0.1 at 2021-12-29 01:33:12 +0700
+Started POST "/__web_console/repl_sessions/68d2329ec195b8166a0859f62c50345f/trace" for 127.0.0.1 at 2021-12-29 01:33:13 +0700
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:34:53 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 60.0ms | Allocations: 14934)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 166.3ms | Allocations: 53438)
+Completed 200 OK in 175ms (Views: 170.7ms | ActiveRecord: 1.5ms | Allocations: 54844)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:35:36 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2002)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 5417)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.2ms | Allocations: 6734)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:35:55 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1963)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5376)
+Completed 200 OK in 32ms (Views: 27.8ms | ActiveRecord: 0.3ms | Allocations: 6655)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:35:58 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1972)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5386)
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 0.2ms | Allocations: 6679)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:36:01 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1964)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 5377)
+Completed 200 OK in 27ms (Views: 23.3ms | ActiveRecord: 0.3ms | Allocations: 6656)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:36:05 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1994)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 5408)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.3ms | Allocations: 6701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:36:08 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1974)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 5387)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.3ms | Allocations: 6666)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2021-12-29 01:36:13 +0700
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 39.0ms | Allocations: 7422)
+  Rendered entries/new.html.erb within layouts/application (Duration: 41.5ms | Allocations: 7802)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 10323)
+Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 0.0ms | Allocations: 10886)
+
+
+Started POST "/entries" for 127.0.0.1 at 2021-12-29 01:36:25 +0700
+Processing by EntriesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_entry"=>"lunch", "calories"=>"500", "protiens"=>"200", "carbohydrates"=>"300", "fats"=>"200"}, "commit"=>"Create Entry"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mEntry Create (1.0ms)[0m  [1m[32mINSERT INTO "entries" ("meal_entry", "calories", "protiens", "carbohydrates", "fats", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["meal_entry", "lunch"], ["calories", 500], ["protiens", 200], ["carbohydrates", 300], ["fats", 200], ["created_at", "2021-12-28 18:36:25.974942"], ["updated_at", "2021-12-28 18:36:25.974942"]]
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/entries/2
+Completed 302 Found in 17ms (ActiveRecord: 6.8ms | Allocations: 4067)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:36:26 +0700
+Processing by EntriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/_entry.html.erb (Duration: 1.0ms | Allocations: 390)
+  Rendered entries/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1744)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4252)
+Completed 200 OK in 24ms (Views: 15.5ms | ActiveRecord: 0.3ms | Allocations: 7505)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:36:31 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1363)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3772)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 4213)
+
+
+Started GET "/entries/2/edit" for 127.0.0.1 at 2021-12-29 01:36:37 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 1.9ms | Allocations: 1537)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1890)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4268)
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 5264)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:37:58 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2189)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 483)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 5704)
+Completed 200 OK in 29ms (Views: 21.4ms | ActiveRecord: 0.3ms | Allocations: 6961)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:40:13 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2174)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 5685)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.4ms | Allocations: 6964)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:40:49 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2168)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 480)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5680)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.2ms | Allocations: 6959)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:40:50 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1254)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3690)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.3ms | Allocations: 4115)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:41:11 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2184)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 5695)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.3ms | Allocations: 6953)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:41:29 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2186)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 483)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5701)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.3ms | Allocations: 6980)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:41:37 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2186)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 483)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 5701)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.2ms | Allocations: 6980)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:41:43 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2183)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 483)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 5698)
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 0.2ms | Allocations: 6977)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:42:34 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.9ms | Allocations: 2280)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2756)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6230)
+Completed 200 OK in 26ms (Views: 21.1ms | ActiveRecord: 0.2ms | Allocations: 8029)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:27 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 4.8ms | Allocations: 2296)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2770)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6244)
+Completed 200 OK in 28ms (Views: 23.1ms | ActiveRecord: 0.3ms | Allocations: 8068)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:29 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.6ms | Allocations: 1469)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1617)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 4046)
+Completed 200 OK in 25ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 5052)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:29 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.1ms | Allocations: 1477)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1625)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4032)
+Completed 200 OK in 15ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 4954)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:31 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 1.9ms | Allocations: 1471)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1619)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4032)
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.2ms | Allocations: 4945)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:32 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.4ms | Allocations: 1468)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1616)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4023)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.2ms | Allocations: 4935)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:43:46 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.4ms | Allocations: 4379)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4780)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4884)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms | Allocations: 6589)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x09ffce70>::Category):
+    43:   <div class="field">
+    44:     <%= form.label :category_id, class: "label" %>
+    45:     <div class="select">
+    46:       <%= form.select :category_id, Category.all.collect {|u| [u.title, u.id]}, {}, class: "select" %>
+    47:     </div>
+    48:   </div>
+    49: 
+  
+app/views/entries/_form.html.erb:46
+app/views/entries/_form.html.erb:1
+app/views/entries/edit.html.erb:5
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:44:02 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.3ms | Allocations: 2289)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2763)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 6253)
+Completed 200 OK in 29ms (Views: 22.2ms | ActiveRecord: 0.2ms | Allocations: 8098)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:44:31 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.5ms | Allocations: 2337)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2811)
+  Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 6284)
+Completed 200 OK in 30ms (Views: 23.3ms | ActiveRecord: 0.2ms | Allocations: 8107)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:44:47 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.7ms | Allocations: 2337)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2811)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 6280)
+Completed 200 OK in 28ms (Views: 23.4ms | ActiveRecord: 0.2ms | Allocations: 8103)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:46:01 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.3ms | Allocations: 2330)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2804)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6273)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.2ms | Allocations: 8096)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:46:05 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1984)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4425)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 4933)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2021-12-29 01:46:07 +0700
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.0ms | Allocations: 1466)
+  Rendered entries/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1775)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4194)
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4672)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:46:25 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1257)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 3715)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.3ms | Allocations: 4125)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:46:26 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.4ms | Allocations: 1521)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1669)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4076)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 5039)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:46:46 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.5ms | Allocations: 2331)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2809)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 474)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 6278)
+Completed 200 OK in 28ms (Views: 22.5ms | ActiveRecord: 0.2ms | Allocations: 8030)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:46:49 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 8.3ms | Allocations: 12463)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 12561)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms | Allocations: 13588)
+
+
+  
+ActionView::Template::Error (undefined method `meal_type' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  meal_entry):
+    11: <%end %>
+    12: 
+    13: <% content_for :title do %>
+    14:   <%= @entry.meal_type %> &ndash; <%= DateTime.now.to_s(:nice_date) %>
+    15: <% end %>
+    16: <div class="columns mt-6 is-centered">
+    17:   <div class="column is-one-third">
+  
+app/views/entries/show.html.erb:14
+app/views/entries/show.html.erb:13
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:01 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 7.9ms | Allocations: 11696)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 11800)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.2ms | Allocations: 13549)
+
+
+  
+ActionView::Template::Error (undefined method `category' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">):
+    18:     <nav class="panel is-link">
+    19:       <p class="panel-heading">
+    20:         <%= @entry.meal_entry %>:
+    21:         <%= @entry.category.title %>
+    22:       </p>
+    23: 
+    24:       <div class="panel-block">
+  
+app/views/entries/show.html.erb:21
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:13 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 12603)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 12707)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.2ms | Allocations: 14526)
+
+
+  
+ActionView::Template::Error (undefined method `proteins' for #<Entry id: 1, meal_entry: "Breakfast", calories: 23, protiens: 32, carbohydrates: 32, fats: 323, created_at: "2021-12-28 18:17:05.309217000 +0000", updated_at: "2021-12-28 18:18:05.175973000 +0000">
+Did you mean?  protiens):
+    25:       </div>
+    26: 
+    27:       <div class="panel-block">
+    28:         Proteins: <%= @entry.proteins %>
+    29:       </div>
+    30: 
+    31:       <div class="panel-block">
+  
+app/views/entries/show.html.erb:28
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:18 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1046)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 482)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4567)
+Completed 200 OK in 27ms (Views: 19.2ms | ActiveRecord: 0.3ms | Allocations: 6436)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:48:22 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.2ms | Allocations: 2225)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2651)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 5059)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 0.2ms | Allocations: 6102)
+
+
+Started PATCH "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:24 +0700
+Processing by EntriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_type"=>"", "calories"=>"23", "proteins"=>"", "carbohydrates"=>"32", "fats"=>"323"}, "commit"=>"Update Entry", "id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+[31mUnpermitted parameters: :meal_type, :proteins. Context: {  }[0m
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms | Allocations: 1588)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:24 +0700
+Processing by EntriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 367)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2850)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 3819)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:26 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 324)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2748)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 3660)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:48:52 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.1ms | Allocations: 1513)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1661)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4068)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 4984)
+
+
+Started PATCH "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:54 +0700
+Processing by EntriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_type"=>"", "calories"=>"23", "proteins"=>"", "carbohydrates"=>"32", "fats"=>"323"}, "commit"=>"Update Entry", "id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+[31mUnpermitted parameters: :meal_type, :proteins. Context: {  }[0m
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms | Allocations: 1403)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:48:54 +0700
+Processing by EntriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 373)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2804)
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 3725)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:49:52 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1903)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4339)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.2ms | Allocations: 4828)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:49:55 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.1ms | Allocations: 1510)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1658)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4065)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 4981)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:49:58 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 321)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2745)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 3661)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:50:11 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1065)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 482)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4565)
+Completed 200 OK in 23ms (Views: 17.5ms | ActiveRecord: 0.2ms | Allocations: 6339)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:50:36 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1993)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4430)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 4938)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:50:59 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1227)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3663)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 4067)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:50:59 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 318)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2742)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 3682)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:52:05 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1059)
+  Rendered shared/_header.html.erb (Duration: 1.7ms | Allocations: 451)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4528)
+Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 0.2ms | Allocations: 6303)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-29 01:52:12 +0700
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 3.1ms | Allocations: 2219)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2645)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 5053)
+Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 0.2ms | Allocations: 6096)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:52:15 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1918)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4354)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 4843)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-29 01:52:52 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1248)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3684)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 4092)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:53:38 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1096)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 450)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4564)
+Completed 200 OK in 26ms (Views: 20.1ms | ActiveRecord: 0.3ms | Allocations: 6343)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:54:04 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1999)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4436)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.2ms | Allocations: 4944)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:54:05 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 347)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2771)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 3711)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:54:16 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1097)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 450)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 4565)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.2ms | Allocations: 6340)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:54:22 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1105)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 452)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4596)
+Completed 200 OK in 28ms (Views: 18.6ms | ActiveRecord: 0.2ms | Allocations: 6462)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:54:25 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1104)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 450)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4572)
+Completed 200 OK in 24ms (Views: 19.0ms | ActiveRecord: 0.2ms | Allocations: 6433)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-29 01:54:38 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 350)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2774)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 3758)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:54:40 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1974)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4422)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 4911)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:42 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2783)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 3699)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:43 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2780)
+Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 3696)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:44 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 338)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2762)
+Completed 200 OK in 14ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 3678)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:45 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 353)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2777)
+Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 0.2ms | Allocations: 3693)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:45 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 353)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2777)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 3693)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:45 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 353)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2777)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 3693)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:46 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 347)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2771)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 3687)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:46 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2780)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 3692)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:54:47 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1248)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3684)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 4092)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-29 01:54:47 +0700
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1239)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3675)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 4079)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:49 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2780)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 3696)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:54:50 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 356)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2780)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 3692)
+
+
+Started GET "/entries/2" for 127.0.0.1 at 2021-12-29 01:55:00 +0700
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:63:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 359)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2783)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 3695)
+
+
