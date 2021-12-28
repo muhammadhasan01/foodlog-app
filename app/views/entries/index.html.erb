@@ -11,7 +11,7 @@
 <%end %>
 
 <% content_for :title do %>
-  Foodlog &ndash; <%= DateTime.now %>
+  Foodlog &ndash; <%= DateTime.now.strftime("%B %e, %Y") %>
 <% end %>
 
 <div class="columns mt-6 is-centered">
